@@ -1,14 +1,15 @@
-@media (max-width:576px){
-    .navLinks{
+@media (max-width:576px) {
+    .navLinks {
         flex-direction: column;
         position: absolute;
         top: 88px;
-        background-color:rgb(12, 12, 12);
+        background-color: rgb(12, 12, 12);
         height: 40%;
         width: 100%;
         display: none;
     }
-    .navLinks li{
+
+    .navLinks li {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -16,48 +17,64 @@
         width: 100%;
         background-color: var(--main-color);
     }
-    #check:checked~.navLinks{
+
+    #check:checked~.navLinks {
         display: flex;
     }
-    .navLinks li:hover{
+
+    .navLinks li:hover {
         background-color: white;
     }
-    .cardContainer1{
+
+    .cardContainer1 {
         padding: 0 10px;
     }
-    .checkbtn{
+
+    .checkbtn {
         display: block;
     }
-    .heroSection .content{
-        padding:20px 10px 30px 19px ;
+
+    .heroSection .content {
+        padding: 20px 10px 30px 19px;
         font-size: 14px;
     }
-    .heroSection .content h2{
+
+    .heroSection .content h2 {
         font-size: 30px;
     }
+
     .heroSection1 .content1 {
         padding: 1px 0px 0px 10px;
     }
-    .heroSection1 .content1 h3{
+
+    .heroSection1 .content1 h3 {
         font-size: 25px;
     }
-    .heroSection1 .content1 p{
+
+    .heroSection1 .content1 p {
         font-size: 14px;
     }
-    .heroImg img{
-        height: 450px;
+
+    .heroImg img {
+        height: 330px;
         display: flex;
     }
-    .heroSection1{
+
+    .heroSection1 {
         display: block;
     }
-    .ContactImg img{
+
+    .ContactImg img {
         height: 200px;
     }
-    .formbox{
+
+    .formbox {
         padding: 10px 30px 10px 30px;
     }
-    input[type="text"],input[type="number"],input[type="Guests"]{
+
+    input[type="text"],
+    input[type="number"],
+    input[type="Guests"] {
         width: 170px;
         padding: 0;
         font-size: 14px;
@@ -66,7 +83,8 @@
         border: 2px solid black;
 
     }
-    input[type="submit"]{
+
+    input[type="submit"] {
         padding: 0;
         margin-left: 0;
         border: none;
@@ -75,7 +93,22 @@
         margin-left: 0px;
         margin-top: 0px;
     }
-    .formbox p{
+
+    .formbox p {
         font-size: 20px;
+    }
+
+    .contboxtop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading-images img {
+        height: 66px;
+    }
+
+    .footerbottom {
+        display: flex;
+        flex-direction: column;
     }
 }
