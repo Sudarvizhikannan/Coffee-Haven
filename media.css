@@ -33,10 +33,13 @@
     .checkbtn {
         display: block;
     }
-
+    .heroSection{
+        background-position: center left;
+    }
     .heroSection .content {
         padding: 20px 10px 30px 19px;
         font-size: 14px;
+        width: 70%;
     }
 
     .heroSection .content h2 {
