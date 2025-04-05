@@ -49,7 +49,7 @@ nav{
 }
 .heroSection{
     width: 100%;
-    background:linear-gradient(60deg,white, transparent 70%), url(./images/home-bg.jpg);
+    background:linear-gradient(60deg,white, transparent 70%), url(./home-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,11 +121,13 @@ button:hover{
     font-family: 'Merienda', cursive;
 }
 .cardContainer{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
-    gap: 2rem;
+    display: grid
+;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0 0 2rem;
+    align-items: flex-start;
+    justify-content: center;
 }
 .cardBody{
     padding: 10px 10px ;
@@ -235,13 +237,16 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 15px 0px;
 }
+
 .fotbox{
     text-align: center;
-    font-size: 10px;
+    font-size: 17px;
 }
 .Foot1{
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
